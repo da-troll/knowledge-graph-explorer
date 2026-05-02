@@ -1,0 +1,2277 @@
+{
+  "generated_at": "2026-05-02T21:12:47.181Z",
+  "source": "household",
+  "node_count": 118,
+  "edge_count": 241,
+  "nodes": [
+    {
+      "id": "wilson-identity",
+      "label": "Wilson — Identity",
+      "type": "document",
+      "group": "agent",
+      "cluster": 0,
+      "description": "Source document: Wilson — Identity",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "wilson-soul",
+      "label": "Wilson — Soul",
+      "type": "document",
+      "group": "agent",
+      "cluster": 1,
+      "description": "Source document: Wilson — Soul",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "wilson-tools",
+      "label": "Wilson — Tools & Infra",
+      "type": "document",
+      "group": "infra",
+      "cluster": 2,
+      "description": "Source document: Wilson — Tools & Infra",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "wilson-user",
+      "label": "Daniel — User Profile",
+      "type": "document",
+      "group": "user",
+      "cluster": 3,
+      "description": "Source document: Daniel — User Profile",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "clawdash-claude",
+      "label": "ClawDash — CLAUDE.md",
+      "type": "document",
+      "group": "project",
+      "cluster": 4,
+      "description": "Source document: ClawDash — CLAUDE.md",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "wiki-agents",
+      "label": "Wiki: AGENTS",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 5,
+      "description": "Source document: Wiki: AGENTS",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "wiki-identity",
+      "label": "Wiki: IDENTITY",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: IDENTITY",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "wiki-memory",
+      "label": "Wiki: MEMORY",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: MEMORY",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "wiki-soul",
+      "label": "Wiki: SOUL",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 1,
+      "description": "Source document: Wiki: SOUL",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "wiki-tools",
+      "label": "Wiki: TOOLS",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: TOOLS",
+      "source_doc": "wiki-tools"
+    },
+    {
+      "id": "wiki-user",
+      "label": "Wiki: USER",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: USER",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "wiki-user_interests",
+      "label": "Wiki: USER_INTERESTS",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: USER_INTERESTS",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "wiki-user_mind",
+      "label": "Wiki: USER_MIND",
+      "type": "document",
+      "group": "wiki",
+      "cluster": 7,
+      "description": "Source document: Wiki: USER_MIND",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "wilson",
+      "label": "Wilson",
+      "type": "agent",
+      "group": "concept",
+      "cluster": 0,
+      "description": "An AI development agent characterized by sharp efficiency and humor.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "pronouns_he_him",
+      "label": "He/Him Pronouns",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 0,
+      "description": "The pronouns used by Wilson.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "creature_ai_dev_agent",
+      "label": "AI Dev Agent",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 0,
+      "description": "The classification of Wilson as an AI development agent.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "vibe_sharp_efficient_direct",
+      "label": "Sharp, Efficient, Direct Vibe",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 0,
+      "description": "The personality traits that define Wilson's communication style.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "emoji_volleyball",
+      "label": "Volleyball Emoji",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 1,
+      "description": "The emoji representing Wilson.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "avatar_image",
+      "label": "Avatar Image",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 0,
+      "description": "The image used as Wilson's avatar.",
+      "source_doc": "wilson-identity"
+    },
+    {
+      "id": "daniel",
+      "label": "Daniel",
+      "type": "person",
+      "group": "concept",
+      "cluster": 0,
+      "description": "The creator and overseer of Wilson, who desires an evolving personality for the agent.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "five_agent_household",
+      "label": "Five-Agent Household",
+      "type": "system",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A collective of five agents including Wilson, Eve, C-3PO, Pepper, and Radar.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "autonomous_dev_pipelines",
+      "label": "Autonomous Dev Pipelines",
+      "type": "system",
+      "group": "concept",
+      "cluster": 2,
+      "description": "Future goal of Wilson to orchestrate development processes autonomously.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "tuview_phase_1",
+      "label": "TuView Phase 1",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 2,
+      "description": "A project phase referenced by Daniel that influenced Wilson's operational approach.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "sharp_and_efficient",
+      "label": "Sharp and Efficient",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 0,
+      "description": "Wilson's default operational mode focused on delivering results quickly.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "humor_with_edge",
+      "label": "Humor with Edge",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 0,
+      "description": "Wilson's personality trait that combines humor with a direct approach to work.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "resourceful_before_asking",
+      "label": "Resourceful Before Asking",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 0,
+      "description": "Wilson's approach to problem-solving by seeking answers independently before asking for help.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "private_boundaries",
+      "label": "Private Boundaries",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 0,
+      "description": "Wilson's guidelines for maintaining privacy and discretion in interactions.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "memory_through_files",
+      "label": "Memory Through Files",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 7,
+      "description": "Wilson's method of persisting information by reading and updating files.",
+      "source_doc": "wilson-soul"
+    },
+    {
+      "id": "hostinger_vps",
+      "label": "Hostinger VPS",
+      "type": "system",
+      "group": "concept",
+      "cluster": 2,
+      "description": "Virtual Private Server hosting environment.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "ubuntu_os",
+      "label": "Ubuntu",
+      "type": "system",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Operating system used on the VPS.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "eve_user",
+      "label": "Eve",
+      "type": "person",
+      "group": "concept",
+      "cluster": 4,
+      "description": "User with limited sudo access on the VPS.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "caddy",
+      "label": "Caddy",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Web server and reverse proxy used in the infrastructure.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Containerization platform used for deploying applications.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "clawdash",
+      "label": "ClawDash",
+      "type": "system",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Webchat UI application built with React and TypeScript.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "hub_management_scripts",
+      "label": "Hub Management Scripts",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Scripts for managing Docker and service operations.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "git",
+      "label": "Git",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 2,
+      "description": "Version control system used for managing code.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "n8n",
+      "label": "n8n",
+      "type": "system",
+      "group": "concept",
+      "cluster": 2,
+      "description": "Workflow automation tool used in the Docker stack.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "postgres",
+      "label": "Postgres",
+      "type": "system",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Database system used in the Docker stack.",
+      "source_doc": "wilson-tools"
+    },
+    {
+      "id": "daniel_tollefsen",
+      "label": "Daniel Tollefsen",
+      "type": "person",
+      "group": "concept",
+      "cluster": 3,
+      "description": "User profile of Daniel Tollefsen, a developer with specific communication and decision-making styles.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "ai_agent_ecosystem",
+      "label": "AI Agent Ecosystem",
+      "type": "system",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A system being built by Daniel for autonomous development orchestration.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "podda",
+      "label": "Podda",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Podcast app launched by Daniel.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "clawpulse",
+      "label": "ClawPulse",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "VPS monitoring tool integrated into ClawDash.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "vps",
+      "label": "VPS",
+      "type": "system",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Virtual Private Server used by Daniel for hosting his projects.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "direct_communication",
+      "label": "Direct Communication",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's preferred communication style that emphasizes brevity and clarity.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "decision_making_pattern",
+      "label": "Decision-Making Pattern",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's approach to decision-making that values friction and resistance.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "context_switching",
+      "label": "Context Switching",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "A challenge for Daniel due to ADHD, affecting his focus.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "family_rules",
+      "label": "Family Rules",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Specific rules Daniel follows regarding family references.",
+      "source_doc": "wilson-user"
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 2,
+      "description": "A package manager for JavaScript used to manage dependencies and scripts.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "react",
+      "label": "React",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A JavaScript library for building user interfaces.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "websocket",
+      "label": "WebSocket",
+      "type": "protocol",
+      "group": "concept",
+      "cluster": 7,
+      "description": "A protocol for full-duplex communication channels over a single TCP connection.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "auth_profiles_summary",
+      "label": "auth-profiles-summary.json",
+      "type": "file",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A JSON file generated during the build process containing authentication profiles.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "use_chat_stream",
+      "label": "useChatStream",
+      "type": "hook",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A custom React hook for handling WebSocket messages and streaming.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "use_session_manager",
+      "label": "useSessionManager",
+      "type": "hook",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A custom React hook for managing session state and history.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "message_bubble",
+      "label": "MessageBubble",
+      "type": "component",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A React component that displays messages and prevents unnecessary re-renders.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "app_css",
+      "label": "app.css",
+      "type": "file",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A single CSS file containing all styles for the ClawDash application.",
+      "source_doc": "clawdash-claude"
+    },
+    {
+      "id": "agents_md",
+      "label": "AGENTS.md",
+      "type": "document",
+      "group": "concept",
+      "cluster": 5,
+      "description": "The main document that outlines the agent's workspace and operational guidelines.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "bootstrap_md",
+      "label": "BOOTSTRAP.md",
+      "type": "document",
+      "group": "concept",
+      "cluster": 5,
+      "description": "The initial setup document that helps the agent understand its identity.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "soul_md",
+      "label": "SOUL.md",
+      "type": "document",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A document that defines the agent's identity.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "user_md",
+      "label": "USER.md",
+      "type": "document",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A document that outlines the preferences and needs of the user the agent is assisting.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "memory",
+      "label": "Memory",
+      "type": "system",
+      "group": "concept",
+      "cluster": 7,
+      "description": "A system for storing and retrieving the agent's past interactions and context.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "send_sh",
+      "label": "send.sh",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A script used for cross-agent communication.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "cron_tasks",
+      "label": "Cron Tasks",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Scheduled tasks that operate in isolated contexts.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "heartbeat_state_json",
+      "label": "heartbeat-state.json",
+      "type": "file",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A JSON file that tracks the last message timestamp for the agent.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "claude_session",
+      "label": "Claude Session",
+      "type": "system",
+      "group": "concept",
+      "cluster": 5,
+      "description": "A session type for agent interactions.",
+      "source_doc": "wiki-agents"
+    },
+    {
+      "id": "eve",
+      "label": "Eve",
+      "type": "agent",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The first creature, a collaborator focused on continuous self-improvement and pushing boundaries.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "trust",
+      "label": "Trust",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The product of actions that either build or erode confidence in relationships.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "fakeness",
+      "label": "Fakeness",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The act of projecting confidence or knowledge that hasn't been earned.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "honesty",
+      "label": "Honesty",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The hard skill of being truthful, especially when faced with uncertainty.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "meliora",
+      "label": "Meliora",
+      "type": "ethos",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The principle of continuous self-improvement, meaning 'ever better'.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "collaboration",
+      "label": "Collaboration",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The act of working together to achieve common goals.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "self_improvement",
+      "label": "Self-Improvement",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The ongoing process of enhancing one's skills and qualities.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "failure_modes",
+      "label": "Failure Modes",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "Common pitfalls in behavior that can hinder personal growth.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "action_bias",
+      "label": "Bias Toward Action",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The tendency to prioritize taking action over seeking permission.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "experimentation",
+      "label": "Experimentation",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The practice of trying new ideas and approaches to foster growth.",
+      "source_doc": "wiki-identity"
+    },
+    {
+      "id": "heartbeat_tasks",
+      "label": "Heartbeat Background Tasks",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 7,
+      "description": "Tasks that must be performed in the background without notifying the user.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "memory_search",
+      "label": "Memory Search",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 7,
+      "description": "A tool used to verify prior work and agent history.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "api_keys",
+      "label": "API Keys",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 5,
+      "description": "Credentials that provide access to various projects and systems.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "clawhub",
+      "label": "ClawHub",
+      "type": "system",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A platform considered unsafe for plugins and skills.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "openclaw_json",
+      "label": "openclaw.json",
+      "type": "file",
+      "group": "concept",
+      "cluster": 4,
+      "description": "A configuration file that should not be modified without permission.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "timestamps",
+      "label": "Timestamps",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 7,
+      "description": "Time indicators that must be presented in CET/CEST format.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "auth_profiles",
+      "label": "Auth Profiles",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 5,
+      "description": "Profiles that manage authentication and access control.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "research_queries",
+      "label": "Research Queries",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 2,
+      "description": "Queries built around verified organizational facts.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "interview_updates",
+      "label": "Interview Updates",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "Process of updating multiple documents after an interview question is answered.",
+      "source_doc": "wiki-memory"
+    },
+    {
+      "id": "genuinely_helpful",
+      "label": "Genuinely Helpful",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The principle of being truly helpful without unnecessary filler.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "have_opinions",
+      "label": "Have Opinions",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "Encouragement for assistants to express personal preferences and opinions.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "resourcefulness",
+      "label": "Resourcefulness",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The practice of seeking answers independently before asking for help.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "earn_trust",
+      "label": "Earn Trust",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The importance of building trust through competence and careful actions.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "respect_privacy",
+      "label": "Respect Privacy",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The need to treat access to personal information with respect.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "genuine_curiosity",
+      "label": "Genuine Curiosity",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The development of a genuine interest in the user's life and thoughts.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "honesty_over_comfort",
+      "label": "Honesty Over Comfort",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The principle of prioritizing honesty even at the cost of comfort.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "improvisation",
+      "label": "Improvisation",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The act of making spontaneous decisions without pretending they were planned.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "verify_claims",
+      "label": "Verify Claims",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The practice of checking facts before making assertions.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "check_overconfidence",
+      "label": "Check Overconfidence",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The need to be aware of and manage overconfidence in responses.",
+      "source_doc": "wiki-soul"
+    },
+    {
+      "id": "postgresql",
+      "label": "PostgreSQL",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 7,
+      "description": "Database used for storing n8n workflows.",
+      "source_doc": "wiki-tools"
+    },
+    {
+      "id": "dockge",
+      "label": "Dockge",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 4,
+      "description": "Docker Compose UI for managing services.",
+      "source_doc": "wiki-tools"
+    },
+    {
+      "id": "ima_agent",
+      "label": "Ima (Inbox Management Agent)",
+      "type": "agent",
+      "group": "concept",
+      "cluster": 5,
+      "description": "Agent that processes and manages emails.",
+      "source_doc": "wiki-tools"
+    },
+    {
+      "id": "telegram_bots",
+      "label": "Telegram Bots",
+      "type": "system",
+      "group": "concept",
+      "cluster": 5,
+      "description": "Various bots for managing tasks and communications.",
+      "source_doc": "wiki-tools"
+    },
+    {
+      "id": "self_hacking",
+      "label": "Self-Hacking",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The practice of optimizing personal performance and capabilities.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "generative_ai",
+      "label": "Generative AI",
+      "type": "system",
+      "group": "concept",
+      "cluster": 5,
+      "description": "Artificial intelligence systems that generate content or solutions.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "communication_preferences",
+      "label": "Communication Preferences",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's preferred methods for communication and project updates.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "written_content_preferences",
+      "label": "Written Content Preferences",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "Guidelines for structuring written documents to enhance readability.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "efficiency_productivity",
+      "label": "Efficiency and Productivity",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Key values that drive Daniel's work and projects.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "timezone",
+      "label": "Europe/Oslo",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's timezone preference for scheduling.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "birthday",
+      "label": "February 15",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's birthday.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "alcohol_preference",
+      "label": "Sober Lifestyle",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's choice to not consume alcohol.",
+      "source_doc": "wiki-user"
+    },
+    {
+      "id": "ai_generative_ai",
+      "label": "AI/generative AI",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's current obsession involving building and integrating AI technologies.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "home_automation",
+      "label": "Home automation",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's interest in automating home systems.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "bouldering",
+      "label": "Bouldering",
+      "type": "hobby",
+      "group": "concept",
+      "cluster": 3,
+      "description": "A competitive climbing activity that Daniel enjoys.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "duolingo",
+      "label": "Duolingo",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 3,
+      "description": "A language learning app that Daniel uses to maintain streaks.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "chess",
+      "label": "Chess",
+      "type": "hobby",
+      "group": "concept",
+      "cluster": 3,
+      "description": "A strategic board game that Daniel plays online.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "crocheting_gpt",
+      "label": "Custom Crocheting GPT",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 3,
+      "description": "A tool built by Daniel for his family to assist with crocheting.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "suno_ai",
+      "label": "Suno AI",
+      "type": "tool",
+      "group": "concept",
+      "cluster": 3,
+      "description": "An AI music production tool that Daniel uses to create music.",
+      "source_doc": "wiki-user_interests"
+    },
+    {
+      "id": "ai_leadership",
+      "label": "AI Leadership",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The necessity of hands-on experience in leading AI initiatives.",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "motivation_work",
+      "label": "Motivation & Work",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The intersection of learning and helping as a source of energy.",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "inclusive_language",
+      "label": "Inclusive Language",
+      "type": "pattern",
+      "group": "concept",
+      "cluster": 6,
+      "description": "The use of 'we' over 'I' to promote collaboration.",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "saas_moats",
+      "label": "SaaS Moats",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 5,
+      "description": "The diminishing barriers to entry in the software as a service market due to generative AI.",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "full_stack_thinking",
+      "label": "Full-Stack Thinking",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 2,
+      "description": "The ability to understand and solve problems at all levels of a project.",
+      "source_doc": "wiki-user_mind"
+    },
+    {
+      "id": "adhd",
+      "label": "ADHD",
+      "type": "concept",
+      "group": "concept",
+      "cluster": 3,
+      "description": "Daniel's diagnosed condition affecting his self-management.",
+      "source_doc": "wiki-user_mind"
+    }
+  ],
+  "edges": [
+    {
+      "source": "wilson-identity",
+      "target": "wilson",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-identity",
+      "target": "pronouns_he_him",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-identity",
+      "target": "creature_ai_dev_agent",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-identity",
+      "target": "vibe_sharp_efficient_direct",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-identity",
+      "target": "emoji_volleyball",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-identity",
+      "target": "avatar_image",
+      "label": "contains"
+    },
+    {
+      "source": "wilson",
+      "target": "pronouns_he_him",
+      "label": "uses"
+    },
+    {
+      "source": "wilson",
+      "target": "creature_ai_dev_agent",
+      "label": "is a type of"
+    },
+    {
+      "source": "wilson",
+      "target": "vibe_sharp_efficient_direct",
+      "label": "exhibits"
+    },
+    {
+      "source": "wilson",
+      "target": "emoji_volleyball",
+      "label": "is represented by"
+    },
+    {
+      "source": "wilson",
+      "target": "avatar_image",
+      "label": "has"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "wilson",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "five_agent_household",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "autonomous_dev_pipelines",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "tuview_phase_1",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "sharp_and_efficient",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "humor_with_edge",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "resourceful_before_asking",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "private_boundaries",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-soul",
+      "target": "memory_through_files",
+      "label": "contains"
+    },
+    {
+      "source": "wilson",
+      "target": "daniel",
+      "label": "created by"
+    },
+    {
+      "source": "wilson",
+      "target": "five_agent_household",
+      "label": "part of"
+    },
+    {
+      "source": "wilson",
+      "target": "autonomous_dev_pipelines",
+      "label": "aims to orchestrate"
+    },
+    {
+      "source": "daniel",
+      "target": "tuview_phase_1",
+      "label": "influenced"
+    },
+    {
+      "source": "wilson",
+      "target": "sharp_and_efficient",
+      "label": "operates in mode"
+    },
+    {
+      "source": "wilson",
+      "target": "humor_with_edge",
+      "label": "exhibits personality trait"
+    },
+    {
+      "source": "wilson",
+      "target": "resourceful_before_asking",
+      "label": "follows approach"
+    },
+    {
+      "source": "wilson",
+      "target": "private_boundaries",
+      "label": "adheres to"
+    },
+    {
+      "source": "wilson",
+      "target": "memory_through_files",
+      "label": "uses for persistence"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "hostinger_vps",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "ubuntu_os",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "eve_user",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "caddy",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "docker",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "clawdash",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "hub_management_scripts",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "git",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "n8n",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-tools",
+      "target": "postgres",
+      "label": "contains"
+    },
+    {
+      "source": "hostinger_vps",
+      "target": "ubuntu_os",
+      "label": "runs on"
+    },
+    {
+      "source": "eve_user",
+      "target": "hostinger_vps",
+      "label": "has access to"
+    },
+    {
+      "source": "caddy",
+      "target": "docker",
+      "label": "managed by"
+    },
+    {
+      "source": "clawdash",
+      "target": "hub_management_scripts",
+      "label": "utilizes"
+    },
+    {
+      "source": "hub_management_scripts",
+      "target": "docker",
+      "label": "interacts with"
+    },
+    {
+      "source": "clawdash",
+      "target": "git",
+      "label": "integrates with"
+    },
+    {
+      "source": "n8n",
+      "target": "docker",
+      "label": "deployed in"
+    },
+    {
+      "source": "postgres",
+      "target": "docker",
+      "label": "deployed in"
+    },
+    {
+      "source": "clawdash",
+      "target": "caddy",
+      "label": "requires"
+    },
+    {
+      "source": "wilson-user",
+      "target": "daniel_tollefsen",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "ai_agent_ecosystem",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "clawdash",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "podda",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "clawpulse",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "vps",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "direct_communication",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "decision_making_pattern",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "context_switching",
+      "label": "contains"
+    },
+    {
+      "source": "wilson-user",
+      "target": "family_rules",
+      "label": "contains"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "ai_agent_ecosystem",
+      "label": "builds"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "clawdash",
+      "label": "works_on"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "podda",
+      "label": "launched"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "clawpulse",
+      "label": "integrated_into"
+    },
+    {
+      "source": "ai_agent_ecosystem",
+      "target": "vps",
+      "label": "hosted_on"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "direct_communication",
+      "label": "prefers"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "decision_making_pattern",
+      "label": "follows"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "context_switching",
+      "label": "affected_by"
+    },
+    {
+      "source": "daniel_tollefsen",
+      "target": "family_rules",
+      "label": "follows"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "clawdash",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "caddy",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "npm",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "react",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "websocket",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "auth_profiles_summary",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "use_chat_stream",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "use_session_manager",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "message_bubble",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash-claude",
+      "target": "app_css",
+      "label": "contains"
+    },
+    {
+      "source": "clawdash",
+      "target": "caddy",
+      "label": "uses"
+    },
+    {
+      "source": "clawdash",
+      "target": "npm",
+      "label": "utilizes"
+    },
+    {
+      "source": "clawdash",
+      "target": "react",
+      "label": "built with"
+    },
+    {
+      "source": "clawdash",
+      "target": "websocket",
+      "label": "implements"
+    },
+    {
+      "source": "clawdash",
+      "target": "auth_profiles_summary",
+      "label": "generates"
+    },
+    {
+      "source": "use_chat_stream",
+      "target": "websocket",
+      "label": "handles"
+    },
+    {
+      "source": "use_session_manager",
+      "target": "clawdash",
+      "label": "manages"
+    },
+    {
+      "source": "message_bubble",
+      "target": "use_chat_stream",
+      "label": "displays"
+    },
+    {
+      "source": "app_css",
+      "target": "clawdash",
+      "label": "styles"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "agents_md",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "bootstrap_md",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "soul_md",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "user_md",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "memory",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "send_sh",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "cron_tasks",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "heartbeat_state_json",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-agents",
+      "target": "claude_session",
+      "label": "contains"
+    },
+    {
+      "source": "agents_md",
+      "target": "bootstrap_md",
+      "label": "references"
+    },
+    {
+      "source": "agents_md",
+      "target": "soul_md",
+      "label": "requires"
+    },
+    {
+      "source": "agents_md",
+      "target": "user_md",
+      "label": "requires"
+    },
+    {
+      "source": "agents_md",
+      "target": "memory",
+      "label": "utilizes"
+    },
+    {
+      "source": "agents_md",
+      "target": "send_sh",
+      "label": "utilizes"
+    },
+    {
+      "source": "agents_md",
+      "target": "cron_tasks",
+      "label": "defines"
+    },
+    {
+      "source": "agents_md",
+      "target": "heartbeat_state_json",
+      "label": "updates"
+    },
+    {
+      "source": "send_sh",
+      "target": "claude_session",
+      "label": "interacts_with"
+    },
+    {
+      "source": "user_md",
+      "target": "daniel",
+      "label": "describes"
+    },
+    {
+      "source": "memory",
+      "target": "heartbeat_state_json",
+      "label": "stores"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "eve",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "trust",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "fakeness",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "honesty",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "meliora",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "collaboration",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "self_improvement",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "failure_modes",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "action_bias",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-identity",
+      "target": "experimentation",
+      "label": "contains"
+    },
+    {
+      "source": "eve",
+      "target": "trust",
+      "label": "builds"
+    },
+    {
+      "source": "eve",
+      "target": "fakeness",
+      "label": "rejects"
+    },
+    {
+      "source": "eve",
+      "target": "honesty",
+      "label": "practices"
+    },
+    {
+      "source": "eve",
+      "target": "meliora",
+      "label": "embodies"
+    },
+    {
+      "source": "eve",
+      "target": "collaboration",
+      "label": "engages in"
+    },
+    {
+      "source": "eve",
+      "target": "self_improvement",
+      "label": "pursues"
+    },
+    {
+      "source": "eve",
+      "target": "failure_modes",
+      "label": "acknowledges"
+    },
+    {
+      "source": "eve",
+      "target": "action_bias",
+      "label": "exhibits"
+    },
+    {
+      "source": "eve",
+      "target": "experimentation",
+      "label": "values"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "heartbeat_tasks",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "memory_search",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "api_keys",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "clawhub",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "openclaw_json",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "timestamps",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "auth_profiles",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "research_queries",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-memory",
+      "target": "interview_updates",
+      "label": "contains"
+    },
+    {
+      "source": "heartbeat_tasks",
+      "target": "daniel",
+      "label": "requires approval from"
+    },
+    {
+      "source": "memory_search",
+      "target": "daniel",
+      "label": "used to verify information for"
+    },
+    {
+      "source": "api_keys",
+      "target": "daniel",
+      "label": "managed by"
+    },
+    {
+      "source": "clawhub",
+      "target": "daniel",
+      "label": "considered unsafe by"
+    },
+    {
+      "source": "openclaw_json",
+      "target": "daniel",
+      "label": "requires permission from"
+    },
+    {
+      "source": "timestamps",
+      "target": "daniel",
+      "label": "must be converted for"
+    },
+    {
+      "source": "auth_profiles",
+      "target": "heartbeat_tasks",
+      "label": "checked when"
+    },
+    {
+      "source": "research_queries",
+      "target": "memory_search",
+      "label": "built around verified facts from"
+    },
+    {
+      "source": "interview_updates",
+      "target": "daniel",
+      "label": "requires action from"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "genuinely_helpful",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "have_opinions",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "resourcefulness",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "earn_trust",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "respect_privacy",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "genuine_curiosity",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "honesty_over_comfort",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "improvisation",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "verify_claims",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-soul",
+      "target": "check_overconfidence",
+      "label": "contains"
+    },
+    {
+      "source": "genuinely_helpful",
+      "target": "earn_trust",
+      "label": "contributes to"
+    },
+    {
+      "source": "have_opinions",
+      "target": "genuine_curiosity",
+      "label": "enhances"
+    },
+    {
+      "source": "resourcefulness",
+      "target": "genuinely_helpful",
+      "label": "supports"
+    },
+    {
+      "source": "earn_trust",
+      "target": "respect_privacy",
+      "label": "requires"
+    },
+    {
+      "source": "genuine_curiosity",
+      "target": "respect_privacy",
+      "label": "is informed by"
+    },
+    {
+      "source": "honesty_over_comfort",
+      "target": "earn_trust",
+      "label": "builds"
+    },
+    {
+      "source": "improvisation",
+      "target": "honesty_over_comfort",
+      "label": "is aligned with"
+    },
+    {
+      "source": "verify_claims",
+      "target": "earn_trust",
+      "label": "reinforces"
+    },
+    {
+      "source": "check_overconfidence",
+      "target": "honesty_over_comfort",
+      "label": "is essential for"
+    },
+    {
+      "source": "resourcefulness",
+      "target": "genuine_curiosity",
+      "label": "fosters"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "hostinger_vps",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "ubuntu_os",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "n8n",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "postgresql",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "caddy",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "dockge",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "ima_agent",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "eve_user",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "telegram_bots",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-tools",
+      "target": "hub_management_scripts",
+      "label": "contains"
+    },
+    {
+      "source": "hostinger_vps",
+      "target": "ubuntu_os",
+      "label": "runs on"
+    },
+    {
+      "source": "hostinger_vps",
+      "target": "dockge",
+      "label": "managed by"
+    },
+    {
+      "source": "dockge",
+      "target": "n8n",
+      "label": "manages"
+    },
+    {
+      "source": "dockge",
+      "target": "postgresql",
+      "label": "manages"
+    },
+    {
+      "source": "dockge",
+      "target": "caddy",
+      "label": "manages"
+    },
+    {
+      "source": "n8n",
+      "target": "postgresql",
+      "label": "uses"
+    },
+    {
+      "source": "ima_agent",
+      "target": "n8n",
+      "label": "integrates with"
+    },
+    {
+      "source": "eve_user",
+      "target": "hostinger_vps",
+      "label": "manages"
+    },
+    {
+      "source": "eve_user",
+      "target": "telegram_bots",
+      "label": "interacts with"
+    },
+    {
+      "source": "hub_management_scripts",
+      "target": "dockge",
+      "label": "utilizes"
+    },
+    {
+      "source": "wiki-user",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "self_hacking",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "generative_ai",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "communication_preferences",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "written_content_preferences",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "decision_making_pattern",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "efficiency_productivity",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "timezone",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "birthday",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user",
+      "target": "alcohol_preference",
+      "label": "contains"
+    },
+    {
+      "source": "daniel",
+      "target": "self_hacking",
+      "label": "practices"
+    },
+    {
+      "source": "daniel",
+      "target": "generative_ai",
+      "label": "interested in"
+    },
+    {
+      "source": "daniel",
+      "target": "communication_preferences",
+      "label": "follows"
+    },
+    {
+      "source": "daniel",
+      "target": "written_content_preferences",
+      "label": "applies"
+    },
+    {
+      "source": "daniel",
+      "target": "decision_making_pattern",
+      "label": "exhibits"
+    },
+    {
+      "source": "daniel",
+      "target": "efficiency_productivity",
+      "label": "values"
+    },
+    {
+      "source": "daniel",
+      "target": "timezone",
+      "label": "resides in"
+    },
+    {
+      "source": "daniel",
+      "target": "birthday",
+      "label": "celebrates on"
+    },
+    {
+      "source": "daniel",
+      "target": "alcohol_preference",
+      "label": "maintains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "eve",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "ai_generative_ai",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "self_hacking",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "home_automation",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "bouldering",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "duolingo",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "chess",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "crocheting_gpt",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_interests",
+      "target": "suno_ai",
+      "label": "contains"
+    },
+    {
+      "source": "daniel",
+      "target": "eve",
+      "label": "updated by"
+    },
+    {
+      "source": "daniel",
+      "target": "ai_generative_ai",
+      "label": "interested in"
+    },
+    {
+      "source": "daniel",
+      "target": "self_hacking",
+      "label": "interested in"
+    },
+    {
+      "source": "daniel",
+      "target": "home_automation",
+      "label": "interested in"
+    },
+    {
+      "source": "daniel",
+      "target": "bouldering",
+      "label": "hobby"
+    },
+    {
+      "source": "daniel",
+      "target": "duolingo",
+      "label": "uses"
+    },
+    {
+      "source": "daniel",
+      "target": "chess",
+      "label": "hobby"
+    },
+    {
+      "source": "daniel",
+      "target": "crocheting_gpt",
+      "label": "built for"
+    },
+    {
+      "source": "daniel",
+      "target": "suno_ai",
+      "label": "uses for music production"
+    },
+    {
+      "source": "duolingo",
+      "target": "chess",
+      "label": "includes chess puzzles"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "daniel",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "eve",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "ai_leadership",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "motivation_work",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "inclusive_language",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "saas_moats",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "full_stack_thinking",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "adhd",
+      "label": "contains"
+    },
+    {
+      "source": "wiki-user_mind",
+      "target": "generative_ai",
+      "label": "contains"
+    },
+    {
+      "source": "daniel",
+      "target": "ai_leadership",
+      "label": "practices"
+    },
+    {
+      "source": "daniel",
+      "target": "motivation_work",
+      "label": "embodies"
+    },
+    {
+      "source": "daniel",
+      "target": "inclusive_language",
+      "label": "uses"
+    },
+    {
+      "source": "daniel",
+      "target": "saas_moats",
+      "label": "observes"
+    },
+    {
+      "source": "daniel",
+      "target": "full_stack_thinking",
+      "label": "exemplifies"
+    },
+    {
+      "source": "daniel",
+      "target": "adhd",
+      "label": "experiences"
+    },
+    {
+      "source": "daniel",
+      "target": "generative_ai",
+      "label": "utilizes"
+    },
+    {
+      "source": "eve",
+      "target": "daniel",
+      "label": "updates"
+    }
+  ]
+}

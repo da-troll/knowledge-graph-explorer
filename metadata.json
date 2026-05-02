@@ -1,0 +1,21 @@
+{
+  "project_name": "Knowledge Graph Explorer",
+  "description": "Visualize any codebase or document set as an interactive D3 force-directed knowledge graph — entities, relationships, and semantic clusters powered by OpenAI embeddings.",
+  "tech_stack": ["React", "TypeScript", "Vite", "D3.js", "Tailwind CSS", "OpenAI API"],
+  "build_date": "2026-05-02",
+  "build_time_hours": 3,
+  "status": "complete",
+  "features": [
+    "Interactive D3 force-directed graph with drag, pan, and zoom",
+    "Pre-baked household knowledge graph (agents, tools, infra, wiki docs)",
+    "OpenAI gpt-4o-mini entity + relationship extraction from any text",
+    "Semantic clustering via text-embedding-3-small k-means",
+    "Node detail panel with incoming/outgoing relationships",
+    "Group filter and search sidebar",
+    "Ad-hoc custom text analysis — paste code or docs to build a new graph"
+  ],
+  "live_url": "https://mvp.trollefsen.com/2026-05-02-knowledge-graph-explorer/",
+  "github_url": "https://github.com/da-troll/knowledge-graph-explorer",
+  "inspired_by": "safishamsi/graphify",
+  "visibility": "public"
+}
